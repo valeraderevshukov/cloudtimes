@@ -1,0 +1,40 @@
+.control
+	padding-top: 36px
+	&__row
+		width: 100%
+		display: table
+		+md
+			display: flex
+			flex-wrap: wrap
+	&__col
+		width: 50%
+		padding: 0 15px
+		vertical-align: top
+		display: table-cell
+		+clr
+		+md
+			width: 100%
+			order: 1
+		&:first-child
+			vertical-align: bottom
+			+md
+				order: 2
+	&__wrap
+		float: right
+		padding: 48px 0 59px
+		text-align: right
+		max-width: 560px
+		+md
+			float: none
+			text-align: left
+			margin: 0 auto
+			max-width: 515px 
+	&__img
+		max-width: 423px
+		+md
+			margin: 0 auto
+		img
+			max-width: 100%
+			display: block
+	&__title
+		margin-bottom: 14px

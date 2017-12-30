@@ -1,0 +1,83 @@
+.form
+	position: absolute
+	left: 0
+	right: 0
+	bottom: 0
+	z-index: 100
+	pointer-events: none
+	opacity: 0
+	visibility: hidden
+	transition: opacity .3s, visibility .3s
+	padding: 55px 0 57px
+	color: $white 
+	background: $formBg 
+	&.is-open
+		opacity: 1
+		visibility: visible
+		pointer-events: initial
+	&__inner
+		position: relative
+	&__close
+		position: absolute
+		top: 0
+		right: 15px
+		background-color: transparent
+		font-size: 32px 
+	&__wrap
+		margin: 0 auto
+		max-width: 476px
+	&__logo
+		margin-bottom: 21px
+		width: 46px
+		display: block
+		img
+			max-width: 100%
+			display: block
+	&__description
+		font-size: 20px
+		margin-bottom: 42px
+		letter-spacing: -0.01em 
+	&__row
+		&:not(:last-child)
+			margin-bottom: 42px
+	&__footer
+		margin-top: 42px
+		text-align: right
+
+.field
+	position: relative
+	display: block
+	&.is-active
+		.field__label
+			opacity: 1
+			transform: translate3d(0,-130%,0)
+	&__label
+		position: absolute
+		top: 2px
+		left: 0
+		right: 0
+		color: $white
+		opacity: 0.61
+		font-family: $ubuntu
+		font-weight: 300 
+		font-size: 16px
+		+f(13, normal, null, 400)
+		transition: transform 0.3s, opacity 0.3s
+		pointer-events: none
+
+
+.input
+	display: block
+	padding-bottom: 4px
+	border-bottom: 1px solid rgba($dark, 0.43)
+	border-radius: 0 !important
+	width: 100%
+	height: 45px
+	color: $white
+	font-size: 16px
+	font-family: $ubuntu
+	+f(13, normal, null, 400)
+	background-color: transparent
+	border-bottom: 1px solid #606b74
+	+sm 
+		font-size: 12px

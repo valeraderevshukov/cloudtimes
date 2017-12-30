@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
+        <path id="a" d="M720 1868l-44-38h88z"/>
+    </defs><symbol id="icon-close" viewBox="0 0 32 32">
+    <title>
+        Page 1
+    </title>
+    <path d="M15.764 14.755a.335.335 0 0 0 .472 0L30.893.099a.337.337 0 0 1 .47-.003l.54.541a.332.332 0 0 1-.002.47L17.245 15.764a.335.335 0 0 0 0 .472l14.656 14.657a.337.337 0 0 1 .003.47l-.541.54a.332.332 0 0 1-.47-.002L16.236 17.245a.335.335 0 0 0-.472 0L1.107 31.901a.337.337 0 0 1-.47.003l-.54-.541a.332.332 0 0 1 .002-.47l14.656-14.657a.335.335 0 0 0 0-.472L.099 1.107a.337.337 0 0 1-.003-.47l.541-.54a.332.332 0 0 1 .47.002l14.657 14.656z" fill-rule="evenodd"/>
+</symbol><symbol id="icon-facebook" viewBox="0 0 10 19">
+    <title>
+        facebook
+    </title>
+    <path d="M9.766.157v2.946H8.014c-.64 0-1.071.134-1.295.402-.223.268-.335.67-.335 1.205v2.11h3.27l-.435 3.303H6.384v8.471H2.97v-8.47H.123V6.82H2.97V4.387c0-1.384.387-2.457 1.161-3.22C4.904.404 5.934.023 7.222.023c1.093 0 1.941.045 2.544.134z" fill-rule="evenodd"/>
+</symbol><symbol id="icon-triangle" viewBox="0 0 88 38">
+    <title>
+        Triangle
+    </title>
+    
+    <g transform="translate(-676 -1830)" fill-rule="evenodd">
+        <use xlink:href="#a"/>
+        <path d="M720 1867.34l42.656-36.84h-85.312L720 1867.34z"/>
+    </g>
+</symbol></svg>

@@ -1,0 +1,57 @@
+.simpler
+	padding: 71px 0 80px
+	letter-spacing: -0.002em 
+	border-bottom: 1px solid rgba($dustyGray, .49) 
+	&__row
+		margin: 0 -15px
+		+clr
+	&__col
+		float: left
+		padding: 0 15px
+		width: 50%
+		+lg
+			width: 48%
+		+md
+			width: 100%
+		&:last-child
+			+lg
+				width: 52%
+			+md
+				width: 100%
+	&__wrap
+		max-width: 515px 
+		+md
+			margin: 0 auto
+	&__title
+		margin-bottom: 15px
+	&__points
+		margin-top: 51px
+		text-align: right
+		+md
+			text-align: center
+.points
+	font-size: 0
+	&__item
+		height: 54px
+		width: 54px
+		vertical-align: top 
+		border-radius: 50% 
+		box-shadow: 0 10px 25px 0 rgba(0,0,0,0.15)
+		display: inline-block
+		+sm
+			height: 28px
+			width: 28px
+		&:not(:first-child)
+			margin-left: 18px
+			+sm
+				margin-left: 15px 
+		&_light-gray
+			background-color: rgba($silverChalice, .2)
+		&_gray
+			background-color: rgba($silverChalice, .4)
+		&_turquoise
+			background-color: $turquoise
+		&_casablanca
+			background-color: $casablanca
+		&_geraldine
+			background-color: $geraldine

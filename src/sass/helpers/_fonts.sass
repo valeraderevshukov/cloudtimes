@@ -1,0 +1,104 @@
+//FONTS
+=fontpath($name, $name1, $file)
+	src: local($name), local($name1), url("../fonts/" + $file + ".woff2") format("woff2"), url("../fonts/" + $file + ".woff") format("woff")
+=fontdefault($style, $weight, $family: null)
+	@if $family != null
+		font-family: $family
+	@else 
+		font-family: 'Lato'
+	font-style: $style
+	font-weight: $weight
+// Ubuntu
+//light
+@font-face
+	+fontdefault(normal, 300)
+	+fontpath('Ubuntu-Light', 'Ubuntu-Light', lato-light)
+@font-face
+	+fontdefault(italic, 300)
+	+fontpath('Ubuntu-LightItalic', 'Ubuntu-LightItalic', lato-lightitalic)
+//regular
+@font-face
+	+fontdefault(normal, 400)
+	+fontpath('Ubuntu', 'Ubuntu', lato-regular)
+@font-face
+	+fontdefault(italic, 400)
+	+fontpath('Ubuntu-Italic', 'Ubuntu-Italic', lato-italic)
+//medium
+@font-face
+	+fontdefault(normal, 500)
+	+fontpath('Ubuntu-Medium', 'Ubuntu-Medium', lato-medium)
+@font-face
+	+fontdefault(italic, 500)
+	+fontpath('Ubuntu-MediumItalic', 'Ubuntu-MediumItalic', lato-mediumitalic)
+//bold
+@font-face
+	+fontdefault(normal, 700)
+	+fontpath('Ubuntu-Bold', 'Ubuntu-Bold', lato-bold)
+@font-face
+	+fontdefault(italic, 700)
+	+fontpath('Ubuntu-BoldItalic', 'Ubuntu-BoldItalic', lato-bolditalic)
+
+//MONTSERRAT
+//thin
+@font-face
+	+fontdefault(normal, 100, 'Montserrat')
+	+fontpath('Montserrat Thin', 'Montserrat-Thin', montserrat-thin)
+@font-face
+	+fontdefault(italic, 100, 'Montserrat')
+	+fontpath('Montserrat Thin Italic', 'Montserrat-ThinItalic', montserrat-thinitalic)
+//extralight
+@font-face
+	+fontdefault(normal, 200, 'Montserrat')
+	+fontpath('Montserrat ExtraLight', 'Montserrat-ExtraLight', montserrat-extralight)
+@font-face
+	+fontdefault(italic, 200, 'Montserrat')
+	+fontpath('Montserrat ExtraLight Italic', 'Montserrat-ExtraLightItalic', montserrat-extralightitalic)
+//light
+@font-face
+	+fontdefault(normal, 300, 'Montserrat')
+	+fontpath('Montserrat Light', 'Montserrat-Light', montserrat-light)
+@font-face
+	+fontdefault(italic, 300, 'Montserrat')
+	+fontpath('Montserrat Light Italic', 'Montserrat-LightItalic', montserrat-lightitalic)
+//regular
+@font-face
+	+fontdefault(normal, 400, 'Montserrat')
+	+fontpath('Montserrat Regular', 'Montserrat-Regular', montserrat-regular)
+@font-face
+	+fontdefault(italic, 400, 'Montserrat')
+	+fontpath('Montserrat Italic', 'Montserrat-Italic', montserrat-italic)
+//medium
+@font-face
+	+fontdefault(normal, 500, 'Montserrat')
+	+fontpath('Montserrat Medium', 'Montserrat-Medium', montserrat-medium)
+@font-face
+	+fontdefault(italic, 500, 'Montserrat')
+	+fontpath('Montserrat Medium Italic', 'Montserrat-MediumItalic', montserrat-mediumitalic)
+//semibold
+@font-face
+	+fontdefault(normal, 600, 'Montserrat')
+	+fontpath('Montserrat SemiBold', 'Montserrat-SemiBold', montserrat-semibold)
+@font-face
+	+fontdefault(italic, 600, 'Montserrat')
+	+fontpath('Montserrat SemiBold Italic', 'Montserrat-SemiBold Italic', montserrat-semibolditalic)
+//bold
+@font-face
+	+fontdefault(normal, 700, 'Montserrat')
+	+fontpath('Montserrat Bold', 'Montserrat-Bold', montserrat-bold)
+@font-face
+	+fontdefault(italic, 700, 'Montserrat')
+	+fontpath('Montserrat Bold Italic', 'Montserrat-BoldItalic', montserrat-bolditalic)
+//extrabold
+@font-face
+	+fontdefault(normal, 800, 'Montserrat')
+	+fontpath('Montserrat ExtraBold', 'Montserrat-ExtraBold', montserrat-extrabold)
+@font-face
+	+fontdefault(italic, 800, 'Montserrat')
+	+fontpath('Montserrat ExtraBold Italic', 'Montserrat-ExtraBoldItalic', montserrat-extrabolditalic)
+//black
+@font-face
+	+fontdefault(normal, 900, 'Montserrat')
+	+fontpath('Montserrat Black', 'Montserrat-Black', montserrat-black)
+@font-face
+	+fontdefault(italic, 900, 'Montserrat')
+	+fontpath('Montserrat Black Italic', 'Montserrat-BlackItalic', montserrat-blackitalic)
