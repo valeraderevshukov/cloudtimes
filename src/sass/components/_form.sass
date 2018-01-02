@@ -4,17 +4,13 @@
 	right: 0
 	bottom: 0
 	z-index: 100
-	pointer-events: none
-	opacity: 0
-	visibility: hidden
-	transition: opacity .3s, visibility .3s
+	transform: translateY(100%)
+	transition: transform .3s
 	padding: 55px 0 57px
 	color: $white 
 	background: $formBg 
 	&.is-open
-		opacity: 1
-		visibility: visible
-		pointer-events: initial
+		transform: translateY(0)
 	&__inner
 		position: relative
 	&__close
